@@ -1,0 +1,18 @@
+{
+  "name": "des",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc.cmd index.ts && node index.js",
+    "des": "node index.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  }
+}
